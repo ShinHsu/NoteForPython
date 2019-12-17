@@ -1,6 +1,13 @@
-def add(x, y): return x + y
-def sub(x, y): return x - y
+def finx_max(lst):
+    max = 0
+    pos = 0
+    for i in range(len(lst) + 1):
+        print(i)
+        if lst[i] > max:
+            max = lst[i]
+            pos = i
+            
+    return i
 
-if __name__ == '__main__':
-    print(add(3,4))
-    print(sub(7,2))
+lst = [17, 92, 18, 33, 58, 7, 33, 42]
+find_max(lst)
